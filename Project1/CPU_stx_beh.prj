@@ -1,0 +1,7 @@
+vhdl isim_temp "ipcore_dir/CacheSRAM.vhd"
+vhdl isim_temp "SDRAMController.vhd"
+vhdl isim_temp "mux2to1.vhd"
+vhdl isim_temp "demux2to1.vhd"
+vhdl isim_temp "cacheController.vhd"
+vhdl isim_temp "Project.vhd"
+vhdl isim_temp "CPU.vhd"

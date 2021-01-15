@@ -1,0 +1,1 @@
+vhdtdtfi -prj Project1 -o "C:/Users/waten/Desktop/New Documents/COE758/Lab1/Project1/mux2to1.vhi" -module mux2to1 -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work mux2to1.vhd 

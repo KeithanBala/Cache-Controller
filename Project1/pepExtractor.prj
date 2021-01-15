@@ -1,0 +1,7 @@
+work	"CPU.vhd"
+work	"Project.vhd"
+work	"SDRAMController.vhd"
+work	"cacheController.vhd"
+work	"demux2to1.vhd"
+work	"ipcore_dir/CacheSRAM.vhd"
+work	"mux2to1.vhd"

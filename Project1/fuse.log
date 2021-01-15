@@ -1,0 +1,40 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/TBCPU_isim_beh.exe -prj C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/TBCPU_beh.prj work.TBCPU 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/ipcore_dir/CacheSRAM.vhd" into library work
+Parsing VHDL file "C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/SDRAMController.vhd" into library work
+Parsing VHDL file "C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/mux2to1.vhd" into library work
+Parsing VHDL file "C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/demux2to1.vhd" into library work
+Parsing VHDL file "C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/cacheController.vhd" into library work
+Parsing VHDL file "C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/Project.vhd" into library work
+Parsing VHDL file "C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/CPU.vhd" into library work
+Parsing VHDL file "C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/TBCPU.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity cacheController [cachecontroller_default]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V6_3_output_stage [\BLK_MEM_GEN_V6_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V6_3_softecc_output_reg_stage [\BLK_MEM_GEN_V6_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V6_3_mem_module [\BLK_MEM_GEN_V6_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V6_3 [\BLK_MEM_GEN_V6_3("blk_mem_gen_v...]
+Compiling architecture cachesram_a of entity CacheSRAM [cachesram_default]
+Compiling architecture behavioral of entity mux2to1 [mux2to1_default]
+Compiling architecture behavioral of entity demux2to1 [demux2to1_default]
+Compiling architecture behavioral of entity SDRAMController [sdramcontroller_default]
+Compiling architecture behavioral of entity Project [project_default]
+Compiling architecture behavioral of entity CPU [cpu_default]
+Compiling architecture behavior of entity tbcpu
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 30 VHDL Units
+Built simulation executable C:/Users/Keithan/Documents/School/COE758/Project1Final/Project1/TBCPU_isim_beh.exe
+Fuse Memory Usage: 42424 KB
+Fuse CPU Usage: 530 ms

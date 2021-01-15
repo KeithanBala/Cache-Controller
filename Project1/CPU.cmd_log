@@ -1,0 +1,3 @@
+vhdtdtfi -prj Project1 -o "C:/Users/waten/Desktop/New Documents/COE758/Lab1/Project1/CPU.vhi" -module CPU -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work CPU.vhd 
+vhdtdtfi -lib work CPU.vhd -prj Project1 -o CPU.spl -module CPU -template C:/Xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -prj Project1 -o "C:/Users/waten/Desktop/New Documents/COE758/Lab1/Project1/CPU.vhi" -module CPU -template C:/Xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ipcore_dir/CacheSRAM.vhd -lib work SDRAMController.vhd -lib work mux2to1.vhd -lib work cacheController.vhd -lib work Project.vhd -lib work CPU.vhd 

@@ -1,0 +1,5 @@
+set -tmpdir "/home/student1/gwatenya/COE758/Project1/xst/projnav.tmp"
+set -xsthdpdir "/home/student1/gwatenya/COE758/Project1/xst"
+elaborate
+-ifn cachController.prj
+-ifmt mixed
